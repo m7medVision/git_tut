@@ -26,7 +26,12 @@ git commit -m "Made changes in new-branch"
 git checkout main
 ```
 
-Write something in some line that you edit it in step 2.
+Write something in some line that you edit it in step 2. Then, commit what you changed.
+
+```bash
+git add .
+git commit -m "Made changes in main branch"
+```
 
 # Step 5: Merge the new branch into the main branch
 
@@ -34,4 +39,13 @@ Write something in some line that you edit it in step 2.
 git merge new-branch
 ```
 
-# Step 6: Resolve any merge conflicts if they arise using vscode
+# Step 6: Resolve any merge conflicts
+
+Then you have to solve the conflicts. _Much easier than solving Middle East conflicts_
+After you solve the conflicts, you have to save the file then contenaure the merge process.
+
+```bash
+git merge --continue
+```
+
+That is it.
