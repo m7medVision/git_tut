@@ -4,7 +4,10 @@ This is git tutorial and you have to follow the steps to learn merge.
 
 # Step 1: Create a new branch
 
+```bash
+
 git checkout -b new-branch
+```
 
 # Step 2: Make changes in the new branch
 
