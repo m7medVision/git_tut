@@ -42,7 +42,7 @@ git merge new-branch
 # Step 6: Resolve any merge conflicts
 
 Then you have to solve the conflicts. _Much easier than solving Middle East conflicts_
-After you solve the conflicts, you have to save the file then contenaure the merge process.
+After you solve the conflicts, you have to save the file then continue the merge process.
 
 ```bash
 git merge --continue
